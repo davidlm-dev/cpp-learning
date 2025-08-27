@@ -1,0 +1,39 @@
+# Compiled object files
+*.o
+
+# Compiled static libraries
+*.a
+
+# Compiled dynamic libraries
+*.so
+
+# Executables
+*.out
+*.exe
+
+# Build directories
+/build/
+/bin/
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+*.user
+*.log
+
+# CMake files
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+Makefile
+
+# Other
+*.dSYM/
+*.DS_Store
+
+
+exercises/*
+!exercises/*.cpp
+!exercises/*.h
